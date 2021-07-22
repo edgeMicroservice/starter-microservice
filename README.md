@@ -64,7 +64,7 @@ replace {{YOUR_PATH}} with a path of your choosing. we recommend keeping it simp
 for example:
 
 ```
-"MCM.BASE_API_PATH": "sample/v1",
+"MCM.BASE_API_PATH": "sample/v1/",
 ```
 
 OPTIONAL:
