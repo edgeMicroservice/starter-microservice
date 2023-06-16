@@ -1,5 +1,5 @@
 function env() {
-  return context.env;
+  return global.context.env;
 }
 
 module.exports = {
