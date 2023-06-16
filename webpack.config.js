@@ -1,11 +1,12 @@
-const path = require('path');
 const TerserPlugin = require('terser-webpack-plugin');
+const path = require('path');
 
 const BUILD_DIR = path.resolve(__dirname, 'build');
 const SRC_DIR = path.resolve(__dirname, 'src');
 
 module.exports = {
   mode: 'production',
+  target: ['web', 'es5'],
   entry: [`${SRC_DIR}/index.js`],
   output: {
     path: BUILD_DIR,
@@ -30,16 +31,23 @@ module.exports = {
         enforce: 'pre',
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'eslint-loader',
+        use: ['eslint-loader'],
       },
       {
         test: /\.js$/,
-        exclude: /node_modules\/(?!edge-ms-helper)/,
-        query: {
-          presets: ['@babel/preset-env'],
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          },
         },
-        loader: 'babel-loader',
       },
     ],
   },
+  resolve: {
+    extensions: ['*', '.js'],
+    fallback: {
+      "url": require.resolve("url/"),
+    },
+  }
 };

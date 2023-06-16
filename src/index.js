@@ -40,7 +40,7 @@ app.get('/promise', (req, res) => {
   const simplePromise = Q.Promise((resolve) => {
     resolve('From the Q promise.');
   });
-  simplePromise.then(answer => res.end(answer));
+  simplePromise.then((answer) => res.end(answer));
 });
 
 // Sample HTTP request with JSON Body and return it
