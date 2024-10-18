@@ -1,14 +1,14 @@
 # starter-microservice
 ---
 
-This is a starter microservice that allows you to start developing edge microservice.
+This is a starter microservice that allows you to start developing an edge microservice.
 
 # How to use it?
 ---
 
-#### If this is your first time developing edge microservice, please follow the edge microservice development quick start guide from [mimik's developer portal][edge microservice deployment quick start guide](https://devdocs.mimik.com/tutorials/01-submenu).
+#### If this is your first time developing an edge microservice, please follow the edge microservice development quick start guide from [mimik's developer portal](https://devdocs.mimik.com/tutorials/01-submenu).
 
-#### Before you use, you need to build the microservice and later deploy it to edgeSDK.
+#### Before you use it, you must build the microservice and later deploy it to mimOE.
 
 # Build Process
 ---
@@ -29,8 +29,8 @@ For **mobile application development**, deployment is programmatically by **Andr
 
 For **microservice development**, things you will need:
 
-- edgeSDK running on the deployment targeted device.
-- Obtained edge Acess Token and associate the device from **edgeSDK OAuth Tool**.
+- mimOE running on the deployment targeted device.
+- Obtained edge Acess Token and associated the device from **mimik OAuth Tool**.
 - Run the following commands under the same directory of your containerized microservice file:
 
 ```
