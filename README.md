@@ -30,7 +30,7 @@ For **mobile application development**, deployment is programmatically by **Andr
 For **microservice development**, things you will need:
 
 - mim OE running on the deployment targeted device.
-- Obtained edge Access Token and associated the device from **[mimik OAuth Tool](https://www.npmjs.com/package/@mimik/mimik-edge-cli)** that is installed:```npm install -g @mimik/mimik-edge-cli```. For more information go [here](https://devdocs.mimik.com/api/01-index).
+- Obtained edge Access Token and associated the device from **[mimik edge cli](https://www.npmjs.com/package/@mimik/mimik-edge-cli)** that is installed:```npm install -g @mimik/mimik-edge-cli```. For more information, go [here](https://devdocs.mimik.com/api/01-index).
 - Run the following commands under the same directory of your containerized microservice file:
 
 ```
