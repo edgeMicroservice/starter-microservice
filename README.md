@@ -22,7 +22,7 @@ The build script **default.yml** is specified under **config** directory.
 # Deployment
 ---
 
-For **mobile application development**, deployment is programmatically by **Android or iOS Wrappers**, learn more about it:
+For **mobile application development**, deployment is programmatically by **Android or iOS Client Libraries**, learn more about it:
 
 - Android: [Link](https://devdocs.mimik.com/key-concepts/11-index)
 - iOS: [Link](https://devdocs.mimik.com/key-concepts/10-index)
