@@ -8,7 +8,7 @@ This is a starter microservice that allows you to start developing an edge micro
 
 #### If this is your first time developing an edge microservice, please follow the edge microservice development quick start guide from [mimik's developer portal](https://devdocs.mimik.com/tutorials/01-submenu).
 
-#### Before you use it, you must build the microservice and later deploy it to mimOE.
+#### Before you use it, you must build the microservice and later deploy it to mim OE.
 
 # Build Process
 ---
