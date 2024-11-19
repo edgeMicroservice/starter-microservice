@@ -29,8 +29,8 @@ For **mobile application development**, deployment is programmatically by **Andr
 
 For **microservice development**, things you will need:
 
-- mimOE running on the deployment targeted device.
-- Obtained edge Acess Token and associated the device from **mimik OAuth Tool**.
+- mim OE running on the deployment targeted device.
+- Obtained edge Access Token and associated the device from **mimik OAuth Tool**.
 - Run the following commands under the same directory of your containerized microservice file:
 
 ```
