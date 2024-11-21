@@ -24,7 +24,7 @@ The build script **default.yml** is specified under **config** directory.
 
 For **mobile application development**, deployment is programmatically by **Android or iOS Client Libraries**, learn more about it:
 
-- Android: [Link](https://devdocs.mimik.com/key-concepts/11-index) [github](https://bitbucket.org/mimiktech/edgesdk-android-edgemobileclient/src/develop/)
+- Android: [Link](https://devdocs.mimik.com/key-concepts/11-index)
 - iOS: [Link](https://devdocs.mimik.com/key-concepts/10-index) [github](https://github.com/mimikgit/cocoapod-EdgeCore?tab=readme-ov-file#mimik-client-library-cocoapods)
 
 For **microservice development**, things you will need:
